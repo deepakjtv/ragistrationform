@@ -1,0 +1,138 @@
+    body {
+        margin: 0px;
+        padding: 0px;
+        height: 100vh;
+        width: 100vw;
+    }
+    
+    .container {
+        background-image: linear-gradient( to right, #211555, #6e6ce4);
+        display: flex;
+        width: 90vw;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    
+    .loginSection {
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        color: #ffffff;
+        text-align: center;
+    }
+    
+    .loginSection span,
+    .loginSection h1 {
+        font-size: 50px;
+        display: block;
+        margin: auto;
+    }
+    
+    .loginSection h1 {
+        margin: auto;
+        margin-bottom: 100px;
+    }
+    
+    .loginSection span {
+        transform: rotate(-45deg);
+    }
+    
+    .loginSection p {
+        font-size: 20px;
+    }
+    
+    .loginSection input {
+        margin: auto;
+        margin-top: 20px;
+        font-size: 20px;
+        background: #ffffff;
+        outline: none;
+        width: 150px;
+        padding: 5px;
+        border: 1px solid gray;
+        border-radius: 20px;
+        cursor: pointer;
+        transition: .5s;
+    }
+    
+    .loginSection input:hover {
+        width: 155px;
+        background-color: gray;
+        color: #ffffff;
+    }
+    
+    .form {
+        width: 60vw;
+        height: 55vh;
+        border-radius: 130px 0px 0px 130px;
+        margin: 70px auto;
+        margin-right: 40px;
+        background-color: #ffffff;
+        padding: 20px 70px;
+        padding-right: 10px;
+    }
+    
+    .form h1 {
+        text-align: center;
+        color: #000000;
+        font-weight: lighter;
+    }
+    
+    .form-group {
+        display: flex;
+    }
+    
+    .form-element {
+        display: flex;
+    }
+    
+    .form-element input[type="text"],
+    .form-element input[type="tel"],
+    .form-element input[type="email"],
+    .form-element input[type="password"] {
+        display: block;
+        float: left;
+        margin: 10px 30px;
+        width: 370px;
+        padding: 10px;
+        background: none;
+        outline: none;
+        border: 1px solid gray;
+    }
+    
+    .form-element input[type="radio"],
+    span {
+        margin: auto;
+    }
+    
+    .form-element input[type="radio"] {
+        margin-left: 30px;
+    }
+    
+    .form-button {
+        display: flex;
+    }
+    
+    .form-button input {
+        margin: auto;
+        margin-top: 20px;
+        margin-right: 50px;
+        width: 150px;
+        padding: 5px;
+        outline: none;
+        border: 1px solid gray;
+        border-radius: 20px;
+        background-color: #1e1bce;
+        color: #ffffff;
+        font-size: 20px;
+        cursor: pointer;
+        transition: .5s;
+    }
+    
+    .form-button input:hover {
+        width: 155px;
+        background-color: gray;
+        color: #000000;
+    }
